@@ -1,4 +1,4 @@
-package com.cydeo.Day1;
+package com.cydeo.day1;
 
 import io.restassured.RestAssured;
 import io.restassured.response.Response;
@@ -6,6 +6,7 @@ import org.junit.jupiter.api.Test;
 
 public class SimpleGetRequest {
 
+    // replace the ip address you get from jenkins server with below one.
     String url = "http://3.216.30.92:8000/api/spartans";
 
     @Test
