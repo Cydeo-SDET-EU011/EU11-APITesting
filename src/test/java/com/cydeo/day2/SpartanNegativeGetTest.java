@@ -2,10 +2,13 @@ package com.cydeo.day2;
 
 import io.restassured.http.*;
 import io.restassured.response.*;
+import org.apache.http.client.*;
 import org.junit.jupiter.api.*;
 
 import static io.restassured.RestAssured.*;
 import static org.junit.jupiter.api.Assertions.*;
+
+
 
 public class SpartanNegativeGetTest {
 
